@@ -1,7 +1,29 @@
 aid: octapulse
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/octapulse.png
 name: Octapulse
-description: Octapulse is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Octapulse (OctaPulse) is a Y Combinator (Winter 2026) startup applying computer
+  vision and robotics to automate quality inspection in finfish farms. Its AI
+  vision platform integrates into existing aquaculture workflows starting at the
+  hatchery stage, using off-the-shelf cameras to perform broodstock phenotyping
+  and juvenile deformity detection. The system reduces per-fish inspection time
+  from roughly five minutes to under thirty seconds while achieving over 90%
+  accuracy, standardizing QA processes and building proprietary multi-species
+  datasets for the aquaculture industry. At this stage Octapulse is an early
+  hardware-and-vision product company with no public API, developer portal, or
+  programmatic surface; this profile tracks it as a lead in the API Evangelist
+  network for future enrichment should a developer platform emerge.
 url: https://raw.githubusercontent.com/api-evangelist/octapulse/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Aquaculture
+- AgriTech
+- Computer Vision
+- Robotics
+- Artificial Intelligence
+- Quality Inspection
+- Y Combinator
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/octapulse-domain-security.yml
+- type: Website
+  url: https://www.tryoctapulse.com/
+- type: Company
+  url: https://www.ycombinator.com/companies/octapulse
+apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
