@@ -48,8 +48,8 @@ modified: '2026-07-20'
 tags:
 - Company
 - Aquaculture
-- AgriTech
-- Computer-Vision
+- AgTech
+- Computer Vision
 - Robotics
 - Artificial Intelligence
 - Quality Inspection
@@ -63,6 +63,7 @@ tags_raw:
 - Artificial Intelligence
 - Quality Inspection
 - Y Combinator
+- Computer-Vision
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
